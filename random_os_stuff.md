@@ -1,5 +1,5 @@
 # Random OS things
-Things I often forget how to do.
+Things I sometimes forget how to do.
 
 ## Linux Stuff
 
