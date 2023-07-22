@@ -2,7 +2,10 @@
 Things I sometimes forget how to do.
 
 ## Linux Stuff
-
+1. Install Miniconda from shell
+	- *curl -sL "https://repo.anaconda.com/miniconda/Miniconda3-py311_23.5.2-0-Linux-x86_64.sh" >   "Miniconda3.sh"*
+	- *bash Miniconda3.sh*
+	- Replace the URL with whichever version of miniconda you want to install (see https://docs.conda.io/en/latest/miniconda.html)
 
 ## Windows Stuff
 
@@ -12,7 +15,7 @@ Things I sometimes forget how to do.
 	- Tested on Windows 10 Pro 
 
 ### Ruby
-Steps used to resolve *ArgumentError wrong numner of arguments...* issue when installing using WSL
+Steps used to resolve *ArgumentError wrong number of arguments...* issue when installing using WSL
 - gem uninstall psych
 - sudo apt remove ruby2.5*
 - sudo apt-get install ruby2.7 ruby2.7-dev build-essential dh-autoreconf
