@@ -7,6 +7,13 @@ Things I sometimes forget how to do.
 	- *bash Miniconda3.sh*
 	- Replace the URL with whichever version of miniconda you want to install (see https://docs.conda.io/en/latest/miniconda.html)
 
+2. tmux
+	- start new session with name: *tmux new -s <sesh_name>*
+	- detach from session: *Ctrl-B D*
+	- list existing sessions: *tmux ls*
+	- reattach session: *tmux a -t <sesh_name>*
+		- if only one session exists: *tmux a* will suffice
+
 ## Windows Stuff
 
 ### Postgres
