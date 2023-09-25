@@ -13,6 +13,8 @@ Things I sometimes forget how to do.
 	- list existing sessions: *tmux ls*
 	- reattach session: *tmux a -t <sesh_name>*
 		- if only one session exists: *tmux a* will suffice
+	- force terminate a specific session: *tmux kill-session -t <sesh_name>*
+		- *kill-session* will kill all active sessions
 
 ## Windows Stuff
 
