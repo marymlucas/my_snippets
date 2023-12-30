@@ -33,3 +33,11 @@ Steps used to resolve *ArgumentError wrong number of arguments...* issue when in
 HT: https://github.com/jekyll/jekyll/issues/8842
 
 ## OS X Stuff
+1. Set up Github creds on new MacBook (prefer to use terminal/CLI)
+	- *brew install gh* (assumes Homebrew installed)
+	- *gh auth login*
+	- Select Github.com
+	- Select HTTPS
+	- Select "Y" to authenticate Git with your credentials
+	- Select "Login with a web browser"
+	- Browser will open and allow to authorize GH
