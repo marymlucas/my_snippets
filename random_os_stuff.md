@@ -25,10 +25,10 @@ Things I sometimes forget how to do.
 
 ### Ruby
 Steps used to resolve *ArgumentError wrong number of arguments...* issue when installing using WSL
-- gem uninstall psych
-- sudo apt remove ruby2.5*
-- sudo apt-get install ruby2.7 ruby2.7-dev build-essential dh-autoreconf
-- gem update
+- *gem uninstall psych*
+- *sudo apt remove ruby2.5**
+- *sudo apt-get install ruby2.7 ruby2.7-dev build-essential dh-autoreconf*
+- *gem update*
 
 HT: https://github.com/jekyll/jekyll/issues/8842
 
